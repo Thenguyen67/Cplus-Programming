@@ -50,5 +50,5 @@ int main()
     cin >> n ;
     int a = n - 1 , b = 1 ;
     int SoLuong = 0 ;
-    SoLuongPhanTu(a , b) ;
+    SoLuongPhanTu(a , b , SoLuong) ;
 }
