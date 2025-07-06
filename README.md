@@ -7,3 +7,4 @@ danh mục nào cả .
 
 - 4/7/2025 . Từ Buoi4 trở đi sẽ update thêm mục
 đề bài
+- VeHinh là bài tập vẽ hình bằng vòng lặp . Luyện để học mảng khá ok ;
