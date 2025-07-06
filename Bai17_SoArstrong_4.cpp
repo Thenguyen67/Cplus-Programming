@@ -2,39 +2,25 @@
 #include<cmath>
 using namespace std ;
 
-int GiaiThua(int SoGoc , int c)
+bool SoArmstrong(int i)
 {
-    int d = SoGoc ;
-    int a = SoGoc ;
+    int A = i ;
+    int B = i ;
     int SoChuSo = 0 ;
-    while(SoGoc > 0)
+    while(A > 0)
     {
-        SoGoc = SoGoc / 10 ;
+        A = A / 10 ;
         SoChuSo++ ;
     }
-    int b = 0 ;
-    while(a > 0)
-    {
-        int c = a % 10 ;
-        b = b + pow(c , SoChuSo) ;
-        a = a / 10 ;
-    }
-    return (b == SoGoc) ;
-}
-
-bool  SoArmstrong(int i)
-{
-    int SoChuSo = 0 ;
-    int SoGoc = i ;
+    
     int b = 0 ;
     while(i > 0)
     {
-        int c = i % 10 ;
-        b = b + GiaiThua(SoGoc , c) ;
+        int a = i % 10 ;
+        b = b + pow(a , SoChuSo) ;
         i = i / 10 ;
-        
     }
-    return (b == SoGoc) ;
+    return (b == B) ;
 }
 
 int main()
@@ -42,8 +28,11 @@ int main()
     int n ;
     cin >> n ;
 
-    for(int i = 1 ; i <= n ; i++)
+    for(int i = 0 ; i < n ; i++)
     {
-        if(SoArmstrong(i)) cout << i << " " ;
+        if(SoArmstrong(i)) 
+        {
+            cout << i << " " ;
+        }
     }
 }
