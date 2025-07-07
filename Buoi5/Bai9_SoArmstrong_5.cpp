@@ -21,7 +21,7 @@ bool ArmStrong(int n)
         SoGoc = SoGoc / 10 ;
     }
     return (b == SoBanDau) ;
-}
+} 
 
 int main()
 {
