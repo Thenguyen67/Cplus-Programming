@@ -10,3 +10,4 @@ danh mục nào cả .
 - VeHinh là bài tập vẽ hình bằng vòng lặp . Luyện để học mảng khá ok ;
 - Ờ thì helloworld.cpp là file up github đầu tiên 
 nên không muốn lưu vào đâu cả thôi hi hi
+- 8/7/2025 Các thư mục Buoi...v.v sẽ gộp vào Thư mục 28Tech
