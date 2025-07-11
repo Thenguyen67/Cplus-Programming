@@ -11,4 +11,4 @@ danh mục nào cả .
 - Ờ thì helloworld.cpp là file up github đầu tiên 
 nên không muốn lưu vào đâu cả thôi hi hi
 - 8/7/2025 Các thư mục Buoi...v.v sẽ gộp vào Thư mục 28Tech
-- Bai18 Buoi5 sẽ giải sau khi học phần mảng 
+- 11/7/2025 Bai18 Buoi5 sẽ giải sau khi học phần mảng 
