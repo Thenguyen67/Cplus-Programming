@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std ;
-
+ 
 bool SoNguyenTo(int j)
 {
     for(int i = 2 ; i*i <= j ; i++)
