@@ -11,4 +11,5 @@ danh mục nào cả .
 - Ờ thì helloworld.cpp là file up github đầu tiên 
 nên không muốn lưu vào đâu cả thôi hi hi
 - 8/7/2025 Các thư mục Buoi...v.v sẽ gộp vào Thư mục 28Tech
-- 11/7/2025 Bai18 Buoi5 sẽ giải sau khi học phần mảng 
+- 11/7/2025 Bai18 Buoi5 sẽ giải sau khi học phần mảng
+- 21/7/2025 Bỏ qua Buoi6 - Buoi9 vì lười . Chuyển qua buổi 10 để học đệ quy và mảng . Có lẽ sau đó sẽ học cụ thể hơn về vector và iterator 
