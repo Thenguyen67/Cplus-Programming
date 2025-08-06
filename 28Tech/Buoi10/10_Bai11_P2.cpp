@@ -13,3 +13,4 @@ int main()
     for(int i = SLPT - 1 ; i >= 0 ; i--)
     cout << A[i] << " " ;
 }
+
