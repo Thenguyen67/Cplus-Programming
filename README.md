@@ -14,3 +14,4 @@ nên không muốn lưu vào đâu cả thôi hi hi
 - 11/7/2025 Bai18 Buoi5 sẽ giải sau khi học phần mảng
 - 21/7/2025 Bỏ qua Buoi6 - Buoi9 vì lười . Chuyển qua buổi 10 để học đệ quy và mảng . Có lẽ sau đó sẽ học cụ thể hơn về vector và iterator
 - 5/8/2025 Bắt đầu làm tiếp . Cách đặt tên file sẽ thay đổi để dễ sắp xếp trên vscode ( Từ buoi10 )
+-26/8/2025 Chuyển qua CTDL
