@@ -1,0 +1,6 @@
+Khi ta khai báo vector một chiều thì giống như array , nó cũng dạng A = {1, 2,...,n} . Nhưng khi ta khai báo dạng vector<vector<int>>A thì sẽ chia ra thành nhiều vector một chiều . 
+Ví dụ : Khi ta A.resize(3) thì khi này ta sẽ được ba mảng một chiều A[1] , A[2] , A[3] . Đây là ý nghĩa của [i] . Vậy nếu ta thêm vào A[1] = {1, 2, 3] , A[2] = {5, 6} , A[3] = {7} thì đây là ý nghĩa của [j]
+Đây cũng là sự khác biệt lớn nhất khi so array với vector . Array khi tạo mảng hai chiều thì chỉ số của các mảng con phải giống nhau . Tức là A[1] có 5 phần tử thì A[2] cũng phải có 5 phần tử . Vector thì không bắt buộc
+như trên 
+Bonus : Khi thấy A[i][j][k] trong array , ví dụ A[2][3][4] thì ta hiểu rằng có 3 mảng j chứa 4 phần tử và có 2 mảng i chứa mảng kiểu j . vậy tổng số phần tử = i x j x k 
+Nhưng trong vector thì không cố định nên chưa chắc đâu nhá
