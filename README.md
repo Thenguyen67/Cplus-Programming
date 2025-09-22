@@ -6,4 +6,4 @@
 - 21/7/2025 Bỏ qua Buoi6 - Buoi9 vì lười . Chuyển qua buổi 10 để học đệ quy và mảng . Có lẽ sau đó sẽ học cụ thể hơn về vector và iterator
 - 5/8/2025 Bắt đầu làm tiếp . Cách đặt tên file sẽ thay đổi để dễ sắp xếp trên vscode ( Từ buoi10 )
 - 26/8/2025 Chuyển qua CTDL
-- Cũng vài tháng kể từ lúc chuyển qua vscode rồi nhưng giờ mới biết cách ghi tiếng việt mà code không lỗi :))). Thêm thư viện #include <locale> và thêm system("chcp 65001 > nul") ; vào cuối đoạn code là được 
+- Cũng vài tháng kể từ lúc chuyển qua vscode rồi nhưng giờ mới biết cách ghi tiếng việt mà code không lỗi :))). Thêm thư viện #include<locale> và thêm system("chcp 65001 > nul") ; vào cuối đoạn code là được 
