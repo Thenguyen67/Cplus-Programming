@@ -1,89 +1,89 @@
 // Bài 1: Biểu diễn đồ thị bằng danh sách kề
 // • Nhập số đỉnh, số cạnh từ bàn phím.
 // • Cho phép nhập từng cạnh và in danh sách kề ra màn hình.
-#include <iostream>
-#include <vector>
-#include <locale>
+
+#include<iostream>
+#include<vector>
+#include<locale> // Chuyển định dạng tiếng Việt cho code 
 using namespace std ;
 
 class graph
 {
-private:
-    int V ;
-    vector<vector<int>> adj ;
+    private :
+        int V ;
+        vector<vector<int>> adj ; // Tạo các đỉnh và các tập con là đỉnh kề (đi qua)
 
-public :
-    graph(int v)
-    {
-        V = v;
-        adj.resize(V) ;
-    }
-
-    void addEgde(int u, int v)
-    {
-        adj[u].push_back(v) ;
-        adj[v].push_back(u) ;
-    }
-
-    void printGraph()
-    {
-        for (int i = 0; i < V; i++)
+    public :
+        graph(int n)
         {
-            cout << "Đỉnh " << i << " : " ;
-            for (int x : adj[i])
-                cout << x << " " ;
-            cout << endl ;
+            V = n ;
+            adj.resize(V) ; // Thay đổi kích thước của vector
         }
-    }
+
+        void addEgde(int u, int v)
+        {
+            adj[u].push_back(v) ; // push_back : Thêm phần tử vào vector
+            adj[v].push_back(u) ;
+        }
+
+        void printGraph()
+        {
+            cout << endl ;
+            for(int i = 0; i < V; i++)
+            {
+                cout << "Đỉnh " << i << " : " ;
+                for(int x : adj[i]) // iterator 
+                {
+                    cout << x << " " ;
+                }
+                cout << endl ;
+            }
+        }
 };
 
 int main()
 {
-    system("chcp 65001 > nul") ;
+    system("chcp 65001 > nul") ; // Thêm vào đầu main để có thể code bằng tiếng Việt 
 
-    // • Nhập số đỉnh, số cạnh từ bàn phím.
-    int m, n;
-    cout << "Nhập vào số đỉnh và số cạnh : " ;
-    cin >> m >> n ;
+    int n, m ;
+    cout << "Nhập vào số đỉnh và cạnh của đồ thị : " ;
+    cin >> n >> m ;
 
-    graph g(m) ;
+    graph g(n) ;
 
     int choice ;
-    // • Cho phép nhập từng cạnh và in danh sách kề ra màn hình.
     do
     {
-        cout << "1. Nhập cạnh của hai đỉnh u, v" << endl ;
-        cout << "2. In ra danh sách kề" << endl ;
+        cout << "1. Nhập vào đỉnh u, v của cạnh" << endl ;
+        cout << "2. In ra danh sách cách đỉnh đi qua" << endl ;
         cout << "0. Kết thúc chương trình" << endl ;
-        cout << "Lựa chọn của bạn : ";
+        cout << "Lựa chọn của bạn : " ;
         cin >> choice ;
 
-        switch (choice)
+        switch(choice)
         {
-        case 1 : 
-        {
-            int u, v;
-            for (int i = 1; i <= n; i++)
+            case 1 :
             {
-                cout << "Nhập vào cạnh " << i << " : " ;
-                cin >> u >> v ;
-                g.addEgde(u, v) ;
+                int u, v ;
+                for(int i = 0; i < m; i++)
+                {
+                    cout << "Cạnh thứ " << i << " gồm hai đỉnh : " ;
+                    cin >> u >> v ;
+                    g.addEgde(u, v) ;
+                }
                 cout << endl ;
+                break ;
             }
-            break ;
-        }
 
-        case 2 :
-        {
-            g.printGraph() ;
-            break ;
-        }
+            case 2 :
+            {
+                g.printGraph() ;
+                break ;
+            }
 
-        case 0 :
-            cout << "Kết thúc chương trình" ;
-            break;
-        default :
-            cout << "Nhập sai ! Vui lòng nhập lại" << endl ;
+            case 0 : cout << "Kết thúc chương trình !" ; break ;
+            default : cout << "Nhập sai ! Vui lòng nhập lại" << endl ;
         }
-    } while (choice != 0) ;
+    }
+    while(choice != 0) ;
 }
