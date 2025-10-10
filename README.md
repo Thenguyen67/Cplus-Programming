@@ -1,9 +1,0 @@
-- Các bài tập trên được lấy tại khoá học lậu của 28Tech được chia thành các file nhỏ gọi là Buoi(1) ... Buoi(n) . 
-- Riêng folder BaiTapLinhTinh sẽ gồm các bài tập trên trời dưới biển không thuộc về một khoá học hay danh mục nào cả . 
-- 4/7/2025 . Từ Buoi4 trở đi sẽ update thêm mục đề bài
-- Ờ thì helloworld.cpp là file up github đầu tiên nên không muốn lưu vào đâu cả thôi hi hi
-- 8/7/2025 Các thư mục Buoi...v.v sẽ gộp vào Thư mục 28Tech
-- 21/7/2025 Bỏ qua Buoi6 - Buoi9 vì lười . Chuyển qua buổi 10 để học đệ quy và mảng . Có lẽ sau đó sẽ học cụ thể hơn về vector và iterator
-- 5/8/2025 Bắt đầu làm tiếp . Cách đặt tên file sẽ thay đổi để dễ sắp xếp trên vscode ( Từ buoi10 )
-- 26/8/2025 Chuyển qua CTDL
-- Cũng vài tháng kể từ lúc chuyển qua vscode rồi nhưng giờ mới biết cách ghi tiếng việt mà code không lỗi :))). Thêm thư viện include "locate" và thêm system("chcp 65001 > nul") ; vào cuối đoạn code là được 
