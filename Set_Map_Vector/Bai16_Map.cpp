@@ -5,7 +5,7 @@ using namespace std ;
 int main()
 {
     map<string, string> m ;
-
+ 
     cout << "Nhap so luong sinh vien : " ;
     int n ; cin >> n ;
 
