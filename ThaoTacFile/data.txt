@@ -1,0 +1,4 @@
+Hello, day la dong dau tien.
+Day la dong thu hai, ghi so: 123
+Ghi du lieu tu bien string.
+Day la dong duoc them vao.
